@@ -34,6 +34,6 @@ def display_weather_info(weather_data: dict) -> None:
 
 if __name__ == "__main__":
     city = "London"
-    api_key = "2272a5d6e3feffe329b5a51dd1b6c312"  # Replace with your valid API key
+    api_key = "3e783f1c5de4d888126d68ad91addc24"  # Replace with your valid API key
     data = fetch_weather(city, api_key)
     display_weather_info(data)
